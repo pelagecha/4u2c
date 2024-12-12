@@ -2,17 +2,35 @@
     "name": "4u2c",
     "colors": {
         "editor.background": "#f5f5f5",
-        // "editor.background": "#000000",
         "editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+        "list.activeSelectionIconForeground": "#fff",
+        "sideBar.background": "#1c2b33",
+        "sideBar.foreground": "#ffffff",
+        "activityBar.background": "#476e82",
+        "activityBar.foreground": "#f5e908",
+        "activityBar.inactiveForeground": "#cfcfcf",
+        "list.activeSelectionBackground": "#000000",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.hoverBackground": "#000000",
+        "statusBar.background": "#a44848",
+
+        "editorGroupHeader.tabsBackground": "#e6e6e6",
+        "tab.activeBackground": "#f8f1f1",
+        "tab.activeForeground": "#000000",
+        "tab.inactiveBackground": "#e0e0e7",
+        "tab.inactiveForeground": "#000000",
+        "tab.hoverBackground": "#c6b7b7",
+        "tab.hoverForeground": "#ffffff",
+        "tab.border": "#c5cbce"
     },
+
     "tokenColors": [
         {
             "name": "Comments",
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "fontStyle": "italic", // changed this
-                "foreground": "#452626"
+                "fontStyle": "", // changed this
+                "foreground": "#7b8283"
             }
         },
         {
@@ -165,8 +183,8 @@
             "name": "Punctuation",
             "scope": "punctuation",
             "settings": {
-                "fontStyle": "italic"
-                // "foreground": "#3b46d5"
+                "fontStyle": "bold",
+                "foreground": "#3b46d5"
             }
         },
         {

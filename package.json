@@ -2,9 +2,9 @@
     "name": "4u2c",
     "displayName": "4u2c",
     "description": "a pleasant light theme",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": {
-        "vscode": "^1.92.0"
+        "vscode": "^1.90.0"
     },
     "publisher": "pelagecha",
     "categories": [
