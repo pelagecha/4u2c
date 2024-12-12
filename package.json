@@ -1,21 +1,26 @@
 {
-  "name": "4u2c",
-  "displayName": "4u2c",
-  "description": "a pleasant light theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.96.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "4u2c",
-        "uiTheme": "vs",
-        "path": "./themes/4u2c-color-theme.json"
-      }
-    ]
-  }
+    "name": "4u2c",
+    "displayName": "4u2c",
+    "description": "a pleasant light theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.96.0"
+    },
+    "publisher": "pelagecha",
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pelagecha/4u2c"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "4u2c",
+                "uiTheme": "vs",
+                "path": "./themes/4u2c-color-theme.json"
+            }
+        ]
+    }
 }
