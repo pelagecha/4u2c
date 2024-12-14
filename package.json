@@ -17,9 +17,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "4u2c",
+                "label": "4u2c (light)",
                 "uiTheme": "vs",
                 "path": "./themes/4u2c-color-theme.json"
+            },
+            {
+                "label": "quiet night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/4u2c-color-theme-dark.json"
             }
         ]
     },

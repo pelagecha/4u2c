@@ -1,5 +1,5 @@
 {
-    "name": "4u2c",
+    "name": "4u2c-dark",
     "colors": {
         "editor.background": "#f5f5f5",
         "editor.foreground": "#333333",
@@ -32,10 +32,7 @@
         "tab.border": "#c5cbce",
 
         // Bottom bar
-        "statusBar.background": "#a44848" // background
-
-        // Terminal
-        // "terminal.background": "#f2f4f5"
+        "statusBar.background": "#a44848"
     },
 
     "tokenColors": [
@@ -43,7 +40,7 @@
             "name": "Comments",
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "fontStyle": "", // changed this
+                "fontStyle": "",
                 "foreground": "#7b8283"
             }
         },
