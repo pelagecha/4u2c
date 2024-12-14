@@ -2,7 +2,7 @@
     "name": "4u2c",
     "displayName": "4u2c",
     "description": "a pleasant light theme",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.90.0"
     },
@@ -22,5 +22,6 @@
                 "path": "./themes/4u2c-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "assets/logo.png"
 }

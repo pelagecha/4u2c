@@ -4,24 +4,35 @@
         "editor.background": "#f5f5f5",
         "editor.foreground": "#333333",
         "list.activeSelectionIconForeground": "#fff",
-        "sideBar.background": "#1c2b33",
-        "sideBar.foreground": "#ffffff",
         "activityBar.background": "#476e82",
-        "activityBar.foreground": "#f5e908",
-        "activityBar.inactiveForeground": "#cfcfcf",
-        "list.activeSelectionBackground": "#000000",
-        "list.activeSelectionForeground": "#ffffff",
-        "list.hoverBackground": "#000000",
-        "statusBar.background": "#a44848",
 
-        "editorGroupHeader.tabsBackground": "#e6e6e6",
-        "tab.activeBackground": "#f8f1f1",
-        "tab.activeForeground": "#000000",
-        "tab.inactiveBackground": "#e0e0e7",
-        "tab.inactiveForeground": "#000000",
-        "tab.hoverBackground": "#c6b7b7",
-        "tab.hoverForeground": "#ffffff",
-        "tab.border": "#c5cbce"
+        // Explorer
+        // "sideBar.background": "#d1d3d5", // background
+        "sideBar.background": "#e6e8ea", // background
+        "sideBar.foreground": "#000000", // font
+        "list.activeSelectionBackground": "#476e82", // curr back
+        "list.activeSelectionForeground": "#ffffff", // curr font
+        "list.focusAndSelectionOutline": "#476e82", // curr border
+        "list.inactiveSelectionBackground": "#aebac0", // inactive back
+        "list.inactiveSelectionForeground": "#ffffff", // inactive font
+        "list.hoverBackground": "#94bbe3", // hover font
+
+        // Side Bar
+        "activityBar.foreground": "#f5e908", // curr icons
+        "activityBar.inactiveForeground": "#cfcfcf", // other icons
+
+        // Top Bar
+        "editorGroupHeader.tabsBackground": "#e6e6e6", // background
+        "tab.activeBackground": "#f8f1f1", // current tab back
+        "tab.activeForeground": "#000000", // curent tab font
+        "tab.inactiveBackground": "#e0e0e7", // inactive tab back
+        "tab.inactiveForeground": "#902f2f", // inactive tab font
+        "tab.hoverBackground": "#c5c7c9", // tab hover back
+        "tab.hoverForeground": "#000000", // tab hover font
+        "tab.border": "#c5cbce",
+
+        // Bottom bar
+        "statusBar.background": "#a44848" // background
     },
 
     "tokenColors": [

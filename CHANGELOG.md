@@ -2,6 +2,17 @@
 
 All notable changes to the "4u2c" extension will be documented in this file.
 
+### [0.0.4] - 2024-12-12
+
+#### Added
+
+-   Added an icon for the extension.
+
+#### Fixed
+
+-   Made explorer colours more pleasant.
+-   Changed hard-to-read colour combinations.
+
 ### [0.0.3] - 2024-12-12
 
 #### Added
