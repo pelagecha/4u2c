@@ -2,13 +2,20 @@
 
 All notable changes to the "4u2c" extension will be documented in this file.
 
-### [0.0.5] - 2024-12-12
+### [0.0.6] - 2024-12-14
+
+#### Added
+
+-   New logo
+-   Dark theme (quiet night)
+
+### [0.0.5] - 2024-12-14
 
 #### Fixed
 
 -   Changes not displaying
 
-### [0.0.4] - 2024-12-12
+### [0.0.4] - 2024-12-13
 
 #### Added
 

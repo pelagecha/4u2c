@@ -2,7 +2,7 @@
     "name": "4u2c",
     "displayName": "4u2c",
     "description": "a pleasant light theme",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "engines": {
         "vscode": "^1.90.0"
     },
@@ -24,9 +24,9 @@
             {
                 "label": "quiet night",
                 "uiTheme": "vs-dark",
-                "path": "./themes/4u2c-color-theme-dark.json"
+                "path": "./themes/4u2c-dark.json"
             }
         ]
     },
-    "icon": "assets/logo.png"
+    "icon": "assets/red_logo.png"
 }
