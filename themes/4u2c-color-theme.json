@@ -7,18 +7,21 @@
         "activityBar.background": "#476e82",
 
         // Explorer
-        // "sideBar.background": "#d1d3d5", // background
         "sideBar.background": "#e6e8ea", // background
         "sideBar.foreground": "#000000", // font
-        "list.activeSelectionBackground": "#476e82", // curr back
-        "list.activeSelectionForeground": "#ffffff", // curr font
-        "list.focusAndSelectionOutline": "#476e82", // curr border
-        "list.inactiveSelectionBackground": "#aebac0", // inactive back
-        "list.inactiveSelectionForeground": "#ffffff", // inactive font
-        "list.hoverBackground": "#94bbe3", // hover font
+        "list.activeSelectionBackground": "#b6d8e9", // curr back
+        "list.activeSelectionForeground": "#1f2550", // curr font
+        "list.focusAndSelectionOutline": "#9dbece80", // curr border
+
+        "list.inactiveSelectionBackground": "#c3d1d7", // inactive back
+        "list.inactiveSelectionForeground": "#000000", // inactive font
+        "list.inactiveFocusOutline": "#9dbece80", // inactive border
+
+        "list.hoverBackground": "#c2dceb", // hover back
+        "list.hoverForeground": "#161844", // hover font
 
         // Side Bar
-        "activityBar.foreground": "#f5e908", // curr icons
+        "activityBar.foreground": "#d3d096", // curr icons
         "activityBar.inactiveForeground": "#cfcfcf", // other icons
 
         // Top Bar
@@ -32,10 +35,28 @@
         "tab.border": "#c5cbce",
 
         // Bottom bar
-        "statusBar.background": "#a44848" // background
+        "statusBar.background": "#a44848", // background
 
-        // Terminal
-        // "terminal.background": "#f2f4f5"
+        // Editor Suggestions
+        "editorSuggestWidget.background": "#f5f3f3", // suggestion box back
+        "editorSuggestWidget.border": "#222222", // suggestion box border
+        "editorSuggestWidget.selectedBackground": "#d7e6f6", // selected suggestion back
+
+        "editorSuggestWidget.foreground": "#000000", // suggestion font
+        "editorSuggestWidget.selectedForeground": "#312525", // curr suggestion font
+        "editorSuggestWidget.focusHighlightForeground": "#2e4cc6", // active search matching font
+        "editorSuggestWidget.highlightForeground": "#3a5bdf", // inactive matching font
+        "editorSuggestWidget.selectedIconForeground": "#194fd7", // selected icon colour
+
+        // Git Decorators in Explorer
+        "gitDecoration.addedResourceForeground": "#7b5c13", // git add
+        "gitDecoration.modifiedResourceForeground": "#2f6f57", // modified
+        "gitDecoration.untrackedResourceForeground": "#316d47", // untracked
+        "gitDecoration.ignoredResourceForeground": "#808080", // gitignored
+        "gitDecoration.conflictingResourceForeground": "#F44336", // Red for conflicts
+        "gitDecoration.deletedResourceForeground": "#E91E63", // Pink for deleted files
+        "gitDecoration.stageModifiedResourceForeground": "#207c2a", // Yellow for staged modifications
+        "gitDecoration.stageDeletedResourceForeground": "#D32F2F" // Dark red for staged deletions
     },
 
     "tokenColors": [
@@ -167,9 +188,10 @@
             "name": "Strings",
             "scope": "string",
             "settings": {
-                // "foreground": "#448C27"
-                "fontStyle": "italic",
-                "foreground": "#0f7d00"
+                // "foreground": "#448C27",
+                // "fontStyle": "italic",
+                "fontStyle": "",
+                "foreground": "#0f7d00" // string colour
             }
         },
         {
@@ -197,7 +219,7 @@
             "name": "Punctuation",
             "scope": "punctuation",
             "settings": {
-                "fontStyle": "bold",
+                "fontStyle": "",
                 "foreground": "#3b46d5"
             }
         },
@@ -222,14 +244,15 @@
                 "punctuation.definition.tag.end.html"
             ],
             "settings": {
-                "foreground": "#91B3E0"
+                "foreground": "#50316d"
             }
         },
         {
             "name": "HTML: Tag Names",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#4B83CD"
+                "foreground": "#114c99",
+                "fontStyle": "bold"
             }
         },
         {
@@ -239,8 +262,8 @@
                 "entity.other.attribute-name.html"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#91B3E0"
+                "fontStyle": "",
+                "foreground": "#5b5a7a"
             }
         },
         {
@@ -262,14 +285,15 @@
                 "entity.name.tag.css"
             ],
             "settings": {
-                "foreground": "#7A3E9D"
+                "foreground": "#206f7b", // .className
+                "fontStyle": "bold"
             }
         },
         {
             "name": "CSS: Property Names",
             "scope": ["meta.property-name", "support.type.property-name"],
             "settings": {
-                "foreground": "#AB6526"
+                "foreground": "#ca7a35"
             }
         },
         {
@@ -280,7 +304,7 @@
                 "support.constant.property-value"
             ],
             "settings": {
-                "foreground": "#448C27"
+                "foreground": "#ca3b40" // values of properties
             }
         },
         {
@@ -422,6 +446,12 @@
             "scope": "meta.diff.header.to-file",
             "settings": {
                 "foreground": "#434343"
+            }
+        },
+        {
+            "scope": "support.type.property-name",
+            "settings": {
+                "foreground": "#000000" // property name font in json files
             }
         }
     ]
