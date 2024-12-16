@@ -2,6 +2,10 @@
 
 All notable changes to the "4u2c" extension will be documented in this file.
 
+### [0.0.7] - 2024-12-16
+
+-   Changed suggestion colours, html/css, explorer colours and more
+
 ### [0.0.6] - 2024-12-14
 
 #### Added
